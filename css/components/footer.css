@@ -22,6 +22,7 @@
   text-decoration: none;
   font-size: 30px;
   color: #30C2BE;
+  transition: ease .4s;
 }
 
 .links a:hover {
