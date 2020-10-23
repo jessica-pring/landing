@@ -3,7 +3,7 @@
   flex-flow: row wrap;
   justify-content: center;
   align-content: space-around;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .card {
@@ -11,13 +11,14 @@
   box-shadow: 0 0 5px rgb(230,230,230);
   text-align: center;
   padding: 15px;
-  margin: 10px;
+  margin: 12px;
   border: 1px solid lightgrey;
   transition: all 0.3s ease-in-out;
 }
 
 .card:hover {
-  transform: scale(1.03);
+  cursor: pointer;
+  transform: scale(1.02);
 }
 
 .card img {
